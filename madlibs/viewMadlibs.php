@@ -1,3 +1,11 @@
+<?php
+
+
+$myfile = fopen("madlib_entries.txt", "a+") or die("Unable to open file!");
+fwrite($myfile, $txt);
+fclose($myfile);
+
+?>
 
 	
 <!DOCTYPE
@@ -5,6 +13,8 @@
 		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
 		<link rel="stylesheet" type="text/css" href="css/styles.css" />
 		<title>MadLibs</title>
+		
+
 		
 	</head>
 
@@ -31,6 +41,7 @@
 						<div>
 							<label for="nounThree">Noun Three:</label>
 							<input type="text" name="nounThree" id="nounThree" value="" />
+							</span>
 						</div>
 						
 						<div>
