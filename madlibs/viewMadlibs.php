@@ -3,22 +3,21 @@
 <!DOCTYPE
 	<head>
 		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
-		<title></title>
-
-	
 		<link rel="stylesheet" type="text/css" href="css/styles.css" />
-
+		<title>MadLibs</title>
+		
 	</head>
 
 	<body>
 		<div id = "container">
 			<div><img src="img/madlibs-logo.png" alt="madlibsLogo"/></div>
-			<div id= "inputleft">
+		
 				<form action="returnMadlib.php" method="get">
 				
 				<fieldset>
 				
-					<legend>Input Data for Madlib!</legend>
+					<legend>Outer Space Poetry</legend><br>
+					
 						<div>
 							<label for="nounOne">Noun One:</label>
 							<input type="text" name="nounOne" id="nounOne" value="" />
@@ -35,38 +34,43 @@
 						</div>
 						
 						<div>
-							<label for="verbOne">Verb One:</label>
+							<label for="animal">Animal:</label>
+							<input type="text" name="animal" id="animal" value="" />
+						</div>
+				
+						<div>
+							<label for="nounFour">Noun Four:</label>
+							<input type="text" name="nounFour" id="nounFour" value="" />
+						</div>
+				
+						<div>
+							<label for="nounFive">Noun Five:</label>
+							<input type="text" name="nounFive" id="nounFive" value="" />
+						</div>
+						
+						<div>
+							<label for="verbOne">Verb One (past tense):</label>
 							<input type="text" name="verbOne" id="verbOne" value="" />
 						</div>
 				
 						<div>
-							<label for="verbTwo">Verb Two:</label>
-							<input type="text" name="verbTwo" id="verbTwo" value="" />
-						</div>
-				
-						<div>
-							<label for="verbThree">Verb Three:</label>
-							<input type="text" name="verbThree" id="verbThree" value="" />
-						</div>
-						
-						<div>
-							<label for="adjectiveOne">Adjective One:</label>
-							<input type="text" name="adjectiveOne" id="adjectiveOne" value="" />
-						</div>
-				
-						<div>
-							<label for="adjectiveTwo">Adjective Two:</label>
-							<input type="text" name="adjectiveTwo" id="adjectiveTwo" value="" />
+							<label for="nounSix">Noun Six:</label>
+							<input type="text" name="nounSix" id="nounSix" value="" />
 						</div>
 					
 						<div>
-							<label for="adjectiveThree">Adjective Three:</label>
-							<input type="text" name="adjectiveThree" id="adjectiveThree" value="" />
+							<label for="nounSeven">Noun Seven:</label>
+							<input type="text" name="nounSeven" id="nounSeven" value="" />
 						</div>
 				
 						<div>
-							<label for="pronoun">Pronoun:</label>
-							<input type="text" name="pronoun" id="pronoun" value="" />
+							<label for="nounEight">Noun Eight:</label>
+							<input type="text" name="nounEight" id="nounEight" value="" />
+						</div>
+						
+							<div>
+							<label for="verbTwo">Verb Two (past tense):</label>
+							<input type="text" name="verbTwo" id="verbTwo" value="" />
 						</div>
 				
 					<input type="submit" name="submit" class ="button" id="submit" value="Submit Form" />
@@ -74,7 +78,7 @@
 				</fieldset>
 				</form>
 		</div>	
-		
+		</div>
 
 
 	</body>

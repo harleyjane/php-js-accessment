@@ -1,22 +1,32 @@
 <?php
-$nounOne = $_POST['nounOne']; 
-$nounTwo = $_POST['nounTwo']; 
-$nounThree = $_POST['nounThree']; 
-$verbOne = $_POST['verbOne']; 
-$verbTwo = $_POST['verbTwo']; 
-$verbThree = $_POST['verbThree']; 
-$adjectiveOne = $_POST['adjectiveOne']; 
-$adjectiveTwo = $_POST['adjectiveTwo']; 
-$adjectiveThree = $_POST['adjectiveThree']; 
-$pronoun = $_POST['pronoun'];
+$nounOne = $_GET['nounOne']; 
+$nounTwo = $_GET['nounTwo']; 
+$nounThree = $_GET['nounThree']; 
+$animal = $_GET['animal']; 
+$nounFour = $_GET['nounFour']; 
+$nounFive = $_GET['nounFive']; 
+$verbOne = $_GET['verbOne']; 
+$nounSix = $_GET['nounSix']; 
+$nounSeven = $_GET['nounSeven']; 
+$nounEight = $_GET['nounEight'];
+$verbTwo = $_GET['verbTwo'];
 
-	print '<p class = "text">Hi! Have you seen my dog? '.$pronoun.' has my '.$nounOne.' 
-	and I cannot find him anywhere.';
-	print '</br>';
-	print 'I hope '.$pronoun.' does not '.$verbOne.' into the '.$nounTwo.'.  The '.$nounThree.'. 
-	is very '.$adjectiveOne.'to me. I '.$verbTwo.'  with it everyday.
-	If ypu see him approach him '.$adjectiveTwo.' and '.$verbThree.' I will be '.$adjectiveThree.'.';
-	print '</p>';
+	echo '
 
+	   Outer Space Poetry <br><br>
+	Twinkle, twinkle little '.$nounOne.'.<br>
+	How I wonder what you are.<br>
+	Up above the '.$nounTwo.' so high.<br>
+	Just like a '.$nounThree.' in the sky.<br>
+	<br>
+	Hey diddle diddle, the '.$animal.'<br>
+	and the '.$nounFour.',<br>
+	The cow jumped over the '.$nounFive.'.<br>
+	The little dog '.$verbOne.' to see such a sport,<br>
+	and the '.$nounSix.' ran away with the spoon.<br>
+	<br>
+	Star light, star bright, first '.$nounSeven.' I see tonight.<br>
+	I wish I may, I wish I might,<br>
+	Have the '.$nounEight.' I '.$verbTwo.' tonight.'
 
 ?>

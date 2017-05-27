@@ -5,8 +5,8 @@ body{
 #container{ 
 	margin-right: auto;
 	margin-left: auto;
-	width: 960px;
-	height:800px;
+	width: 784px;
+	height:900px;
 	border: solid 5px #000;
 }
 form {
@@ -16,64 +16,48 @@ form {
 }
 
 img {
-	padding-left: 100px;
+	display: block;
 	width: 750px;
 	height: 150px;
 
 }
 legend{
 	text-align: center;
-	font: 20px Arial, Helvetica, sans-serif;
+	font: 20px sans-serif;
+	font-weight: bold;
 
 }
 fieldset{
 	border: none;
 
 }
-#inputleft{
+#inputleft {
 	width: 300px;
-	float: left;
-}
-#outputright{
-	width: 500px;
 	float: right;
 }
 
-#response{
-	font: 25px Arial, Helvetica, sans-serif;
-	width:500px;
-	height: 300px;
-}
-
 .text {
-	font: 20px Arial, Helvetica, sans-serif;
-	height: 300px;
-	padding-right: 150px;
-
+	font: Arial, Helvetica, sans-serif;
+	font-size: large;
+	padding-left: 300px;
+	
 }
-.errortext{
-	color: #FF0000;
-	font-family: Arial,Helvetica, sans-serif;
-	font-size: 16px;
-}
-
-
-#pronoun,#nounOne,#nounTwo,#nounThree,#verbOne,#verbTwo,#verbThree,#adjectiveOne,#adjectiveTwo,#adjectiveThree	{
-	font-size: 13px;
-    margin-bottom: 5px;
+#nounOne,#nounTwo,#nounThree,#animal,#nounFour,#nounFive,#verbOne,#nounSix,#nounSeven,#nounEight,#verbTwo {
+	font-size: 20px;
+	color: blue;
+	margin-bottom: 5px;
     display: block;
     padding: 4px;
     border: solid 1px #85b1de;
     width: 300px;
 }
 
-.button
-{
+.button {
 	margin-top:10px;
 	width:140px;
-	height:20px;
+	height:30px;
 	color:#FFFFFF;
 	background-color:#666666;
 	border:thin solid #000;
-	border-radius:0px;
+	border-radius:1px;
 }
