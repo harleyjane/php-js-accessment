@@ -35,13 +35,6 @@ fieldset{
 	width: 300px;
 	float: right;
 }
-
-.text {
-	font: Arial, Helvetica, sans-serif;
-	font-size: large;
-	padding-left: 300px;
-	
-}
 #nounOne,#nounTwo,#nounThree,#animal,#nounFour,#nounFive,#verbOne,#nounSix,#nounSeven,#nounEight,#verbTwo {
 	font-size: 20px;
 	color: blue;
@@ -60,4 +53,9 @@ fieldset{
 	background-color:#666666;
 	border:thin solid #000;
 	border-radius:1px;
+}
+#text {
+	font: serif;
+	font-size: 400px;
+	font-style: italic;
 }

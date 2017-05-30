@@ -1,20 +1,10 @@
-<?php
 
-
-$myfile = fopen("madlib_entries.txt", "a+") or die("Unable to open file!");
-fwrite($myfile, $txt);
-fclose($myfile);
-
-?>
-
-	
 <!DOCTYPE
 	<head>
 		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
 		<link rel="stylesheet" type="text/css" href="css/styles.css" />
 		<title>MadLibs</title>
 		
-
 		
 	</head>
 
@@ -83,7 +73,8 @@ fclose($myfile);
 							<label for="verbTwo">Verb Two (past tense):</label>
 							<input type="text" name="verbTwo" id="verbTwo" value="" />
 						</div>
-				
+				<div>
+					
 					<input type="submit" name="submit" class ="button" id="submit" value="Submit Form" />
 
 				</fieldset>

@@ -1,0 +1,15 @@
+// Open the text file
+	$f = fopen("madlib_entries.txt", "w");
+
+	// Write text line
+	fwrite($f, "PHP is fun!"); 
+
+	// Close the text file
+	fclose($f);
+
+	// Open file for reading, and read the line
+	$f = fopen("madlib_entries.txt", "r");
+	echo fgets($f); 
+
+	fclose($f);
+
